@@ -2,79 +2,71 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <style media="screen">
+    hr {
+      margin: 100px auto 100px auto;
+      border-style: dotted none none;
+      border-color: gray;
+      border-width: 5px;
+      width: 3%;
+    }
+  </style>
   <meta charset="utf-8">
-  <title>🌐 William's Personal Site</title>
+  <title>William Ho</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="css/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="images/William.png" alt="william profile picture"></td>
-      <td>
-        <h1>William Ho</h1>
-        <p><em>Indie Game Developer</em></p>
-        <p>I am a Web engineer,Unity engineer & Blender artist. I ❤ passion fruit juice and curry pork chop.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Work projects</h3>
-  <ul>
-    <li>Character & Enviroment Design</li>
-    <li>Web developing</li>
-    <li>3d Animation</li>
-  </ul>
-  <hr>
-  <h3>Education</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>School</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>2018-2021</td>
-      <td>Raffles Design Instutite - Digital Media - Game Design Diploma</td>
-    </tr>
-    <tr>
-      <td>2021-2024</td>
-      <td>南台科技大學多媒體電腦娛樂系</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Android Development</td>
-            <td>✯✯✯</td>
-          </tr>
-          <tr>
-            <td>Web Development</td>
-            <td>✯✯</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Photography</td>
-            <td>✯✯✯✯✯</td>
-          </tr>
-          <tr>
-            <td>Painting</td>
-            <td>✯✯✯</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="favorite games.html">Favorite games</a>
-  <a href="contact-me.html">Contact me</a>
-</body>
+  <div class="top-container">
+    <img src="images/controller.png" alt="" width="80px">
+    <h1><em>I'm William.</em></h1>
+    <h2>a game developer.</h2>
+    <div class="InlineClass">
+      <img class="video-main" src="images/video-controller.jpg" alt="">
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/William.png" alt="">
+      <h2>Hello.</h2>
+      <p class="my3dmodel-P">I'm an indie game developer, blender artist.
+      <br>I ❤ passion fruit juice and fried porkchop .</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>About Me.</h2>
+      <div class="skill-row">
+        <img class="myStory-img" src="images/webdesign.jpg" alt="">
+        <h3>Why I entered the gaming industry</h3>
+        <p class="myStory-P">When I first time opened The Elder Scrolls V: Skyrim on my computer, I found the external goal of my life. I will enter the game industry and bring the shock and touch that I feel at this moment to more people. I was
+          deeply attracted by the story and the freedom in the game. To have a better game experience, I started to research how to install plug-ins, MODs. After that, I started to learn 3D modeling, and import the characters I made into the game.
+          Finally, I made my own game. Games are a paradise for players on earth. Games allow people to sit in front of the computer table and experience places and people that might be inaccessible in their lifetime. </p>
+      </div>
+      <div class="skill-row">
+        <img class="my3dmodel-img" src="images/Motor.jpeg" alt="">
+        <h3>Custom 3D Modeling <br>(Character & vehicle)</h3>
+        <p class="my3dmodel-P">According to user needs, customized 3d models.
+        <br>No Rig, Rig, Basic movable, Full joint movable, Equipment can be put on and taken off, Simple expression, Advanced expression system, Body paint weight.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love playing games and want to make your imagination came true~ </h3>
+      <p class="contact-message">Let's discuss together and make the game of our dreams~ <br> I am a big fan of the Rune Factory Series and 7th Dragon.<br> How about you ~</p>
+      <a class="btn" href="mailto:ck9william@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/profile.php?id=100002613794586">Facebook</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/aucer.t/">Instagram</a>
+    <p class="end-P">© 2021 William Ho @ CardoKnight Studio .</p>
+  </div>
+</body>
 </html>
